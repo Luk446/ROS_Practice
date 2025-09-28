@@ -10,6 +10,8 @@ project(topics_quiz)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
+  geometry_msgs
+  sensor_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -106,6 +108,8 @@ catkin_package(
 #  LIBRARIES topics_quiz
   CATKIN_DEPENDS rospy std_msgs
   CATKIN_DEPENDS rospy message_runtime
+  CATKIN_DEPENDS rospy geometry_msgs
+  CATKIN_DEPENDS rospy sensor_msgs
 #  DEPENDS system_lib
 )
 
