@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="my_package" type="age_publisher.py" name="publish_age" output="screen">
+    </node>
+</launch>
