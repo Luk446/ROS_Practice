@@ -1,7 +1,7 @@
 <launch>
     <node pkg="topics_quiz" 
     type="quiz_publisher.py" 
-    name="quiz_publisher" 
+    name="topics_quiz_node" 
     output="screen">
     </node>
 </launch>
