@@ -1,0 +1,5 @@
+<launch>
+    <!-- Start Service Client for move_bb8_in_circle service -->
+    <node pkg="services_quiz" type="bb8_move_custom_service_client.py" name="move_bb8_in_square_custom"  output="screen">
+    </node>
+</launch>
